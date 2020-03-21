@@ -29,6 +29,7 @@ const data = [
             command: `⌘K ⌘S`,
             description: `Keyboard Shortcuts`
         },
+        
         ]  
     },
     { 
@@ -117,6 +118,7 @@ const data = [
             command: `⌥Z`,
             description: `Toggle word wrap`
         },
+
         ]
     },
     { 
@@ -181,6 +183,7 @@ const data = [
             command: `⇧⌥⌘PgDn`,
             description: `Column (box) selection page down`
         },
+
         ]
     },
     { 
@@ -188,6 +191,7 @@ const data = [
 
         shortcuts: 
         [
+
         {
             command: `⌘F`,
             description: `Find`
@@ -212,6 +216,7 @@ const data = [
             command: `⌘K ⌘D`,
             description: `Move last selection to next Find match`
         },
+
         ]  
     },
     { 
@@ -219,6 +224,7 @@ const data = [
 
         shortcuts: 
         [
+
         {
             command: `⌃Space`,
             description: `Trigger suggestion`
@@ -267,6 +273,7 @@ const data = [
             command: `⌘K M`,
             description: `Change file language`
         },
+
         ]  
     },
     { 
@@ -274,6 +281,7 @@ const data = [
       
         shortcuts: 
         [
+
         {
             command: `⌘T`,
             description: `Show all Symbols`
@@ -310,6 +318,7 @@ const data = [
             command: `⌃⇧M`,
             description: `Toggle Tab moves focus`
         },
+
         ]  
     },   
     { 
@@ -326,7 +335,7 @@ const data = [
             description: `Close folder`
         },
         // {
-        //     command: `⌘\`,
+        //     command: "⌘\",
         //     description: `Split editor`
         // },
         {
@@ -345,6 +354,7 @@ const data = [
             command: `⌘K ← / ⌘K →`,
             description: `Move active editor group`
         },
+
         ]  
     },  
     { 
@@ -352,6 +362,7 @@ const data = [
         
         shortcuts: 
         [
+
         {
             command: `⌘N`,
             description: `New File`
@@ -403,7 +414,8 @@ const data = [
         {
             command: `⌘K O`,
             description: `Show active file in new window/instance`
-        }
+        },
+
         ]  
     }, 
     { 
@@ -411,6 +423,7 @@ const data = [
         
         shortcuts: 
         [
+
         {
             command: `⌃⌘F`,
             description: `Toggle full screen`
@@ -471,6 +484,72 @@ const data = [
             command: `⌘K Z`,
             description: `Zen Mode (Esc Esc to exit)`
         },
+
+        ]  
+    }, 
+    { 
+        category: "Debug", 
+        
+        shortcuts: 
+        [
+        {
+            command: `F9`,
+            description: `Toggle breakpoint`
+        },
+        {
+            command: `F5`,
+            description: `Start/Continue`
+        },
+        {
+            command: `F11 / ⇧F11`,
+            description: `Step into/ out`
+        },
+        {
+            command: `F10`,
+            description: `Step over`
+        },
+        {
+            command: `⇧F5`,
+            description: `Stop`
+        },
+        {
+            command: `⌘K ⌘I`,
+            description: `Show hover`
+        },  
+        
+        ]  
+    }, 
+    { 
+        category: "Integrated terminal", 
+        
+        shortcuts: 
+        [
+
+        {            
+            command: '⌃`',
+            description: `Show integrated terminal`
+        },
+        {
+            command: '⌃⇧`',
+            description: `Create new terminal`
+        },
+        {
+            command: `⌘C`,
+            description: `Copy selection`
+        },
+        {
+            command: `⌘↑ / ↓`,
+            description: `Scroll up/down`
+        },
+        {
+            command: `PgUp / PgDn`,
+            description: `Scroll page up/down`
+        },
+        {
+            command: `⌘Home / End `,
+            description: `Scroll to top/bottom`
+        }, 
+
         ]  
     }, 
 ]

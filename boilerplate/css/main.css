@@ -13,9 +13,13 @@ font-family: 'Dancing Script', cursive; */
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: teal;
+}
+
 body {
     font-size: 10px;
-    /* background-color: #f2f3f7; */
     background-color: blanchedalmond;
 }
 
@@ -24,7 +28,7 @@ h1 {
     padding: 3rem;
     font-family: 'Dancing Script', cursive; 
     font-weight: 200;
-    font-size: 3.2rem;
+    font-size: 4rem;
     color: teal;
 }
 
@@ -44,16 +48,12 @@ h1 {
     position: relative;
     width: 30%; 
     border-radius: 2rem; 
-    padding: 1.5rem;
+    padding: 1rem;
     height: 50vh;
     box-shadow: -2px -2px 8px rgba(250, 230, 211, 0.8)  ,
                 -2px -2px 12px  rgba(250, 230, 211, 0.8),
                 inset 2px 2px 4px  rgba(250, 230, 211, 0.5),
                  2px 2px 8px  rgba(137, 137, 137, 0.2);
-    /* box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.8)  ,
-                -2px -2px 12px  rgba(255, 255, 255, 0.8),
-                inset 2px 2px 4px  rgba(255, 255, 255, 0.5),
-                 2px 2px 8px  rgba(0, 0, 0, 0.2); */
     margin-bottom: 2.5rem;
 }
 
@@ -71,6 +71,7 @@ h6 {
 
 h2 {
     font-size: 2.4rem;
+    padding: 2rem 0;
 }
 
 p {
@@ -78,4 +79,13 @@ p {
     padding-bottom: 1rem;
     word-spacing: .5rem;
 }
-
+.footer {
+    margin-top: 6rem;
+}
+.footer h5 {
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 300;
+    padding: 0;
+    line-height: 0;
+}
