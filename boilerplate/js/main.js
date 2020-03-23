@@ -31,7 +31,6 @@ ul.innerHTML = selected.map( (displayShortcut) => {
 // ------------------- 
 
 // Add refresh button
-// Add google search-input
 // Add search-input for commands
-// Develop commands for windows and linux 
+// Develop commands for windows and linux
     
